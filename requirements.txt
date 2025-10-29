@@ -5,7 +5,7 @@ crewai-tools==0.1.7
 # --- Ecosistema Langchain (Era v0.1.x para compatibilidad) ---
 langchain==0.1.20
 langchain-core==0.1.52
-langchain-google-genai==0.1.5
+langchain-google-genai==0.1.4
 langsmith==0.1.57
 
 # --- Dependencias Críticas (Alineadas con la Era v0.1.x) ---
