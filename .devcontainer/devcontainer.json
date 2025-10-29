@@ -1,7 +1,11 @@
 {
   "name": "Vorpal Builder Environment",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
-  "postCreateCommand": "pip install --user -r requirements.txt",
+  
+  "postAttachCommand": {
+    "pip-install": "pip install --user -r requirements.txt"
+  },
+
   "customizations": {
     "vscode": {
       "extensions": [
