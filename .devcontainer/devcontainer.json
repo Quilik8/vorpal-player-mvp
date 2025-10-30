@@ -2,11 +2,7 @@
     "name": "CrewAI Quickstart",
     "image": "mcr.microsoft.com/devcontainers/python:0-3.11",
 
-    "features": {
-        "ghcr.io/devcontainers-contrib/features/poetry:1": {}
-    },
-
-    "postCreateCommand": "poetry install",
+    "postCreateCommand": "pip install poetry && poetry install",
     
     "customizations": {
         "vscode": {
