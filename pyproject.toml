@@ -6,7 +6,7 @@ authors = ["Quilik8 <proyecto001a.u.t.o.r@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.13"
 crewai = "^0.35.8"
 crewai-tools = "^0.4.4"
 langchain-google-genai = "^1.0.6"
