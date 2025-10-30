@@ -8,7 +8,7 @@ on:
 jobs:
   build-and-run:
     runs-on: ubuntu-latest
-
+    
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -19,18 +19,15 @@ jobs:
           python-version: '3.11'
 
       - name: Install Poetry
-        run: |
-          pip install poetry
+        run: pip install poetry
 
       - name: Install dependencies
-        run: |
-          poetry install
+        run: poetry install
 
       - name: Run the generation script
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-        run: |
-          poetry run python generar_plan.py
+        run: poetry run python generar_plan.py
 
       - name: Commit and push generated files
         run: |
