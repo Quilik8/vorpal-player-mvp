@@ -1,8 +1,8 @@
 {
-    "name": "CrewAI Quickstart",
-    "image": "mcr.microsoft.com/devcontainers/python:0-3.11",
+    "name": "Vorpal Builder (Conda)",
+    "image": "mcr.microsoft.com/devcontainers/miniconda:0-3",
 
-    "postCreateCommand": "pip install poetry && poetry install",
+    "postCreateCommand": "conda install -c conda-forge -y langchain-google-genai python-dotenv && pip install crewai crewai-tools",
     
     "customizations": {
         "vscode": {
