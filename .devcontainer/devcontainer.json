@@ -1,14 +1,10 @@
 {
-    "name": "Vorpal Builder (Conda Hybrid)",
+    "name": "Vorpal Builder (Validated)",
     "image": "mcr.microsoft.com/devcontainers/miniconda:0-3",
-
-    "postCreateCommand": "conda install -c conda-forge -y python-dotenv langchain-google-genai 'pydantic<2.0' && pip install crewai crewai-tools",
-    
+    "postCreateCommand": "pip install -r requirements.txt",
     "customizations": {
         "vscode": {
-            "extensions": [
-                "ms-python.python"
-            ]
+            "extensions": [ "ms-python.python" ]
         }
     }
 }
