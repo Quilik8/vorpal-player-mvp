@@ -1,7 +1,11 @@
 {
-    "name": "Vorpal Builder (Minimal)",
+    "name": "Vorpal Builder (System Dependencies)",
     "image": "mcr.microsoft.com/devcontainers/python:0-3.11",
+    
+    "onCreateCommand": "sudo apt-get update && sudo apt-get install -y sqlite3",
+    
     "postCreateCommand": "pip install --upgrade pip && pip install crewai langchain-google-genai python-dotenv",
+    
     "customizations": {
         "vscode": {
             "extensions": [
