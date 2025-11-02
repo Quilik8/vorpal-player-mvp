@@ -1,9 +1,7 @@
 {
-    "name": "Vorpal Builder (Conda)",
-    "image": "mcr.microsoft.com/devcontainers/miniconda:0-3",
-
-    "postCreateCommand": "conda install -c conda-forge -y langchain-google-genai python-dotenv && pip install crewai crewai-tools",
-    
+    "name": "Vorpal Builder (Minimal)",
+    "image": "mcr.microsoft.com/devcontainers/python:0-3.11",
+    "postCreateCommand": "pip install --upgrade pip && pip install crewai langchain-google-genai python-dotenv",
     "customizations": {
         "vscode": {
             "extensions": [
