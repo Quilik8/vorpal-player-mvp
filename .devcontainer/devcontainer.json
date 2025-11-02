@@ -1,8 +1,8 @@
 {
-    "name": "Vorpal Builder (Final)",
-    "image": "mcr.microsoft.com/devcontainers/python:0-3.11",
-    
-    "postCreateCommand": "pip install --upgrade pip && pip install pysqlite3-binary crewai langchain-google-genai python-dotenv",
+    "name": "Vorpal Builder (Conda Hybrid)",
+    "image": "mcr.microsoft.com/devcontainers/miniconda:0-3",
+
+    "postCreateCommand": "conda install -c conda-forge -y python-dotenv langchain-google-genai 'pydantic<2.0' && pip install crewai crewai-tools",
     
     "customizations": {
         "vscode": {
