@@ -1,8 +1,10 @@
 # --- Parche proactivo para el requisito de sqlite3 de chromadb ---
 pysqlite3-binary
 
-# --- Dependencias de alto nivel (sin versiones especificadas) ---
-crewai
-crewai-tools
-langchain-google-genai
-python-dotenv
+# --- Ecosistema Estable Verificado (Basado en Langchain v0.1.x) ---
+crewai==0.28.8
+crewai-tools==0.1.6
+langchain-google-genai==0.0.9
+python-dotenv==1.0.1
+pydantic<2
+langchain==0.1.13
