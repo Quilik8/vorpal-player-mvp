@@ -262,5 +262,3 @@ o	El Bucle de Retroalimentación de IA: La arquitectura del sistema que, de form
 o	29.3 La Gobernanza de la Comunidad y la IA:
 o	Contenido a Detallar: "A medida que la IA se vuelve central, estableceremos un consejo comunitario (compuesto por creadores 'Leyenda' y GMs veteranos) para asesorar sobre la dirección ética y funcional de nuestras herramientas de IA. Esto asegura que el desarrollo de la IA se mantenga alineado con las necesidades y valores de la comunidad a la que sirve, fomentando la confianza y la adopción a largo plazo."
 o	
-________________________________________
-

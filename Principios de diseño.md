@@ -32,9 +32,8 @@ El principio que gobierna la implementación de cada blueprint y cada nodo es in
 **La Estructura como Sugerencia.**
 
 Ofrecemos plantillas de inicio y estructuras lógicas como el punto de partida más eficaz. Sin embargo, el usuario final siempre conserva la soberanía sobre su lienzo creativo. La modularidad es absoluta, permitiendo al usuario renombrar nodos, añadir o eliminar campos, y crear nuevos tipos de nodos desde cero para adaptar la herramienta perfectamente a las necesidades únicas de su mundo.
-
-
     
+
 
 ### **Apéndice B: Registro de Configuración del Entorno de Desarrollo**
 
@@ -47,11 +46,8 @@ Este registro documenta el conjunto de herramientas y tecnologías seleccionadas
     *   **Extensión Requerida:** Se ha instalado la extensión oficial de **Python de Microsoft** para permitir la integración del lenguaje y la selección de intérpretes.
 
 *   **Gestor de Entornos y Paquetes:**
-    *   **Miniconda:** Se ha instalado como el gestor principal para crear y gestionar entornos de desarrollo aislados y estables. Esta herramienta fue seleccionada para resolver problemas de compilación de dependencias complejas en el sistema operativo Windows.
-    *   **Entorno de Proyecto:** Se ha creado un entorno Conda dedicado llamado **`vorpal_env`**, configurado con **Python 3.12** para garantizar un equilibrio óptimo entre modernidad y compatibilidad con el ecosistema de librerías de IA.
+    *   **Miniconda:** Se ha instalado como el gestor principal para crear y gestionar entornos de desarrollo aislados y estables. 
 
-*   **Modelo de Lenguaje de IA:**
-    *   El motor de inteligencia para el sistema de agentes es el modelo **Google Gemini 2.5 Pro**, accedido a través de su API oficial.
 
 
 ### **Filosofía de Diseño Vorpal: Blueprints Adaptativos y Niveles de Detalle (LoD)**
